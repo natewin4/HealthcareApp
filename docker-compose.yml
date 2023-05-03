@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  azcasestudy3:
+    image: azcasestudy3
+    build:
+      context: .
+      dockerfile: ./Dockerfile

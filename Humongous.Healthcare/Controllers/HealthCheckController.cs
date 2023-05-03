@@ -1,4 +1,4 @@
-﻿using Humongous.Healthcare.Models;
+﻿﻿using Humongous.Healthcare.Models;
 using Humongous.Healthcare.Services;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -76,4 +76,3 @@ namespace Humongous.Healthcare.Controllers
         }
     }
 }
-
