@@ -1,4 +1,4 @@
-name: API - AKS - Build and deploy
+name: API
 
 on:
   push:
@@ -6,7 +6,6 @@ on:
     paths:
     - Humongous.Healthcare/**
     - manifests/**
-
 
 jobs:
   build-and-deploy:
