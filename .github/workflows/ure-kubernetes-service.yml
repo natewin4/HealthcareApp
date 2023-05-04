@@ -2,11 +2,10 @@ name: API - AKS - Build and deploy
 
 on:
  push:
-  branches: 
-   - Main1
+  branches: [ main1 ]
   paths:
-   - Humongous.Healthcare/**
-   - manifests/**
+   - 'Humongous.Healthcare/**'
+   - 'manifests/**'
 
 
 jobs:
